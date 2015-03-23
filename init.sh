@@ -8,3 +8,4 @@ for dir in $DIRLIST; do
 done;
 
 chmod -vf 777 "upload/admin"
+ 
