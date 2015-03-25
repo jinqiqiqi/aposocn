@@ -242,7 +242,7 @@ a {
 	text-decoration:none
 }
 a:hover, a:focus {
-	color:#cf3341;
+	color:#e06d98;
 	text-decoration:underline
 }
 a:focus {
@@ -1917,6 +1917,7 @@ src:url(../fonts/glyphicons-halflings-regular.eot?#iefix) format('embedded-opent
 }
 .glyphicon {
 	position:relative;
+	color: #777777;
 	top:1px;
 	display:inline-block;
 	font-family:'Glyphicons Halflings';
