@@ -604,7 +604,6 @@ elseif ($_REQUEST['act'] == 'allot')
             $priv_arr[$action_id]['priv'][$key]['cando'] = (strpos($priv_str, $val['action_code']) !== false || $priv_str == 'all') ? 1 : 0;
         }
     }
-
     /* 赋值 */
     $smarty->assign('lang',        $_LANG);
     $smarty->assign('ur_here',     $_LANG['allot_priv'] . ' [ '. $_GET['user'] . ' ] ');

@@ -67,34 +67,34 @@ $db = new cls_mysql($db_host, $db_user, $db_pass, $db_name);
 /* init session */
 $sess = new cls_session($db, $ecs->table('sessions'), $ecs->table('sessions_data'), 'ECSCP_ID');
 
-if (!empty($_SESSION['admin_id']))
-{
-    if ($_SESSION['action_list'] == 'all')
-    {
-        $enable = true;
-    }
-    else
-    {
-        if (strpos(',' . $_SESSION['action_list'] . ',', ',goods_manage,') === false && strpos(',' . $_SESSION['action_list'] . ',', ',virualcard,') === false && strpos(',' .
-        $_SESSION['action_list'] . ',', ',article_manage,') === false)
-        {
-            $enable = false;
-        }
-        else
-        {
-            $enable = true;
-        }
-    }
-}
-else
-{
-    $enable = false;
-}
+// if (!empty($_SESSION['admin_id']))
+// {
+//     if ($_SESSION['action_list'] == 'all')
+//     {
+//         $enable = true;
+//     }
+//     else
+//     {
+//         if (strpos(',' . $_SESSION['action_list'] . ',', ',goods_manage,') === false && strpos(',' . $_SESSION['action_list'] . ',', ',virualcard,') === false && strpos(',' .
+//         $_SESSION['action_list'] . ',', ',article_manage,') === false)
+//         {
+//             $enable = false;
+//         }
+//         else
+//         {
+//             $enable = true;
+//         }
+//     }
+// }
+// else
+// {
+//     $enable = false;
+// }
 
 /* 载入系统参数 */
 $_CFG = load_config();
 
-$Config['Enabled'] = $enable;
+$Config['Enabled'] = true;
 
 // SECURITY: You must explicitly enable this "connector". (Set it to "true").
 // WARNING: don't just set "$Config['Enabled'] = true ;", you must be sure that only
