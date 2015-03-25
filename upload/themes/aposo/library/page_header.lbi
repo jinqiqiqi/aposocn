@@ -58,7 +58,10 @@ var process_request = "{$lang.process_request}";
 						<ul class="nav nav-justified">
 							<li><a href="/"{if $navigator_list.config.index eq 1} class="active"{/if}>{$lang.home}</a></li>
 							<!-- {foreach name=nav_middle_list from=$navigator_list.middle item=nav} -->
-							<li><a href="{$nav.url}"{if $nav.opennew eq 1} target="_blank" {/if}{if $nav.active eq 1} class="active"{/if}>{$nav.name}</a></li>
+							<!-- {$i++} -->
+							<li {if $smarty.foreach.nav_middle_list.index eq 2}class="brand"{/if}>
+								<a href="{$nav.url}"{if $nav.opennew eq 1} target="_blank" {/if}{if $nav.active eq 1} class="active"{/if}>{$nav.name}</a>
+							</li>
 							<!-- {/foreach} -->
 							<li class="search_input">
 								<!-- search start -->
