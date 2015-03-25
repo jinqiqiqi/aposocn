@@ -79,7 +79,7 @@ var process_request = "{$lang.process_request}";
 									{/literal}
 								</script>
 
-								<form id="searchForm" name="searchForm" method="get" action="search.php" onSubmit="javascript: return checkSearchForm()" class="f_r"  style="_position:relative; top:5px;">
+								<form id="searchForm" name="searchForm" method="get" action="search.php" onSubmit="javascript: return checkSearchForm()" class="f_r"  style="_position:relative; top:5px;">						<div class="input_content"><span class="glyphicon glyphicon-search"></span></div>
 									<input type="text" name="keywords" id="keyword" value="{$search_keywords|escape}" placeholder="搜索" />
 								</form>
 								<!-- search end -->

@@ -104,14 +104,19 @@ body {
 
 /* templatemo_banner_logo */
 #templatemo_banner_logo {
-    background: #ffffff;
-	position:relative;
-	margin:5px auto;
+    background: none repeat scroll 0 0 #ffffff;
+    height: 35px;
+    margin: 5px auto;
+    position: relative;
 }
 #templatemo_banner_logo img {
-	max-width:100%;
-	margin:0 auto;
-	display:block;
+	display: block;
+    left: 43%;
+    margin: 0 auto;
+    max-width: 100%;
+    position: absolute;
+    top: 10px;
+    z-index: 999;
 }
 
 /* templatemo_banner_slide */
@@ -136,7 +141,8 @@ body {
 	-webkit-border-radius: 4px;
 	padding: 0 15px;
 }
-#templatemo_main_menu .nav-justified li {
+#templatemo_main_menu .nav-justified li.brand {
+	padding-left:230px;
 }
 #templatemo_main_menu .nav-justified li a {
     color: #ffffff;
@@ -150,17 +156,30 @@ body {
 }
 #templatemo_main_menu .nav-justified li.search_input{
 	position: absolute;
-    right: 30px;
-    top: 11px;
+    right: 12px;
+    top: -37px;
+	width:290px;
+}
+#templatemo_main_menu .search_input .input_content{
+    left: 6px;
+    line-height: 30px;
+    position: absolute;
+    top: 1px;
 }
 #templatemo_main_menu .nav-justified li input{
-	background: none repeat scroll 0 0 #f4f4f4;
-    border: 0 none;
-    border-radius: 4px;
-    padding: 2px 5px;
-    width: 165px;
-	-moz-border-radius: 4px;
-	-webkit-border-radius: 4px;
+	background: none repeat scroll 0 0 #f0f4f5;
+    border: medium none;
+    color: #767676;
+    float: left;
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0;
+    padding: 5px 10px 5px 30px;
+    width: 100%;
+    border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
 }
 #templatemo_bread_crumbs{
 	margin-top:10px;
@@ -582,7 +601,7 @@ body {
 	color: #666666;
     font-size: 12px;
 }
-.form_detail ul li .input_content {
+.form_detail ul li .input_content{
     left: 15px;
     line-height: 40px;
     position: absolute;

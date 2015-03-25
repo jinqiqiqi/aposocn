@@ -2924,7 +2924,7 @@ border-top-left-radius:0
 .nav>li>a {
 	position:relative;
 	display:block;
-	padding:10px 25px
+	padding:10px 33px
 }
 .nav>li>a:hover, .nav>li>a:focus {
 	text-decoration:none;
@@ -4958,6 +4958,9 @@ display:none!important
 @media (min-width:992px) and (max-width:1199px) {
 .hidden-md {
 display:none!important
+}
+#templatemo_main_menu .nav-justified li.brand {
+	padding-left:170px;
 }
 }
 @media (min-width:1200px) {
