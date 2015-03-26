@@ -4990,3 +4990,28 @@ th.visible-print, td.visible-print {
 	display:none!important
 }
 }
+@media (min-width:1200px) {
+.nav-justified>li>a {
+padding: 10px 40px;
+}
+}
+@media (max-width:1199px) {
+.nav-justified>li>a {
+padding: 10px 33px;
+}
+}
+@media (max-width:980px) {
+#templatemo_banner_logo{
+	height:55px;
+}
+}
+@media (max-width:768px) {
+#templatemo_banner_logo img{
+	width:80px;
+}
+}
+@media (max-width:480px) {
+#templatemo_banner_logo img{
+	width:60px;
+}
+}
