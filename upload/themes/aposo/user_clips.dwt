@@ -120,15 +120,15 @@
               {else}
               <tr>
                 <td align="">{$lang.message_type}：</td>
-                <td><input name="msg_type" type="radio" value="0" checked="checked" />
+                <td><input class="sex" name="msg_type" type="radio" value="0" checked="checked" />
                   {$lang.type[0]}
-                  <input type="radio" name="msg_type" value="1" />
+                  <input class="sex" type="radio" name="msg_type" value="1" />
                   {$lang.type[1]}
-                  <input type="radio" name="msg_type" value="2" />
+                  <input class="sex" type="radio" name="msg_type" value="2" />
                   {$lang.type[2]}
-                  <input type="radio" name="msg_type" value="3" />
+                  <input class="sex" type="radio" name="msg_type" value="3" />
                   {$lang.type[3]}
-                  <input type="radio" name="msg_type" value="4" />
+                  <input class="sex" type="radio" name="msg_type" value="4" />
                   {$lang.type[4]} </td>
               </tr>
               {/if}

@@ -71,11 +71,11 @@
                 </tr>
                 <tr>
                   <td width="" align="">{$lang.sex}： </td>
-                  <td width="" align="left"><input type="radio" name="sex" value="0" {if $profile.sex==0}checked="checked"{/if} />
+                  <td width="" align="left"><input class="sex" type="radio" name="sex" value="0" {if $profile.sex==0}checked="checked"{/if} />
                     {$lang.secrecy}&nbsp;&nbsp;
-                    <input type="radio" name="sex" value="1" {if $profile.sex==1}checked="checked"{/if} />
+                    <input type="radio" class="sex"  name="sex" value="1" {if $profile.sex==1}checked="checked"{/if} />
                     {$lang.male}&nbsp;&nbsp;
-                    <input type="radio" name="sex" value="2" {if $profile.sex==2}checked="checked"{/if} />
+                    <input type="radio" class="sex"  name="sex" value="2" {if $profile.sex==2}checked="checked"{/if} />
                   {$lang.female}&nbsp;&nbsp; </td>
                 </tr>
                 <tr>
