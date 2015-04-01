@@ -108,7 +108,7 @@
         </tr>
         <tr>
           <td align="">{$lang.comment_rank}：</td>
-          <td>
+          <td class="radio">
           <input name="comment_rank" type="radio" value="1" id="comment_rank1" /> <label for="comment_rank1"><img src="../images/stars1.gif" /></label>
           <input name="comment_rank" type="radio" value="2" id="comment_rank2" /> <label for="comment_rank2"><img src="../images/stars2.gif" /></label>
           <input name="comment_rank" type="radio" value="3" id="comment_rank3" /> <label for="comment_rank3"><img src="../images/stars3.gif" /></label>

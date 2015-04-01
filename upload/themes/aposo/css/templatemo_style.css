@@ -644,6 +644,12 @@ body {
 	border: 1px solid #e06d98;
 	background:#ffffff;
 }
+.boxCenterList .comment_table .radio input,.info_detail .sex input{
+	float: none;
+    margin-left: 0;
+    vertical-align: middle;
+    width: auto;
+}
 #templatemo_login .form_detail ul li input.inputBg{padding:5px 10px 5px 45px;}
 .form_detail ul li input.login_btn,.form_detail ul li a.start_shop{
 	background: none repeat scroll 0 0 #777777;

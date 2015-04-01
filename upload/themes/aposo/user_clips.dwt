@@ -120,7 +120,7 @@
               {else}
               <tr>
                 <td align="">{$lang.message_type}：</td>
-                <td><input name="msg_type" type="radio" value="0" checked="checked" />
+                <td class="sex"><input name="msg_type" type="radio" value="0" checked="checked" />
                   {$lang.type[0]}
                   <input type="radio" name="msg_type" value="1" />
                   {$lang.type[1]}
