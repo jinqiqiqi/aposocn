@@ -637,6 +637,7 @@ body {
     vertical-align: middle;
     width: auto;
 }
+#messages .commentsList #commentForm input.f_r{width:135px;}
 .boxCenterList .info_detail input.inputBg,.boxCenterList form select{
 	float: none;
     width: 80%;
